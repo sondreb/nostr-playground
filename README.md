@@ -1,6 +1,6 @@
 # nostr-playground
 
-[key-derivation.js](key-derivation.jso) is a small example that demonstrates how to derive the public key (id) for nostr using different libraries.
+[key-derivation.js](key-derivation.js) is a small example that demonstrates how to derive the public key (id) for nostr using different libraries.
 
 ```
 npm ci
