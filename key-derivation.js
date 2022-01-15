@@ -1,7 +1,7 @@
 // Example 1: @noble
 import { HDKey } from 'micro-bip32';
 import { generateMnemonic, mnemonicToSeedSync, validateMnemonic } from 'micro-bip39';
-import { wordlist } from 'micro-bip39/wordlists/english.js';
+import { wordlist } from 'micro-bip39/wordlists/english.js'; // Don't need the .js for web projects.
 import * as secp256k1 from '@noble/secp256k1';
 
 // Example 2: nostr-tools
